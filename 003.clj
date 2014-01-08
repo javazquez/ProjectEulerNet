@@ -3,11 +3,16 @@
 ;;; http://javazquez.com
 
 (defn prime? [num]
-    (if (< (count (filter #(zero? (rem num %))(range 1 num ))) 3)
-    true
-    false))
+  (< (count (filter #(zero? (rem num %))(range 1 num ))) 3))
+    
+(defn factors [num]
+	(filter #(zero? (rem num %)) (range 1 num) ))
+	
+(defn largest-prime-factor[num]
+ (->> (factors num)
+  (take-while #(and (<= (* %1 2 ) num) (prime? %1)))
+	(reduce max)))
 
-(defn factors [num](filter #(zero? (rem num %)) (range 2 (Math/sqrt num) )))
+;user=> (largest-prime-factor 600851475143)
+;6857
 
-(reduce max (filter #(prime? %) (factors 600851475143)))
-;user=>6857
