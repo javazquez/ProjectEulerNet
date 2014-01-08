@@ -1,6 +1,6 @@
 # Juan Vazquez 
 # https://github.com/javazquez
-# http://javazquez.com
+# http://javazquez.com 
 
 defmodule Euler3 do
 	defp prime?(num) do
