@@ -8,3 +8,4 @@ defmodule Euler do
 end
 
 IO.puts Enum.reduce(1..20, fn x,y -> Euler.lcm(x,y) end) 
+#232792560
