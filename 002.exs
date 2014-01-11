@@ -7,3 +7,5 @@ Stream.filter(fn x -> Integer.even?x end) |>
 Enum.take_while(fn y -> y < 4000000 end ) |> 
 Enum.reduce(fn x,acc-> x+acc end) |> 
 IO.puts
+
+#4613732
