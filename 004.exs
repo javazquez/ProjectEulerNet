@@ -12,3 +12,4 @@ defmodule Euler do
 end
 
 Euler.palindroms(Enum.to_list(100..999)) |> Enum.max |> IO.puts
+#906609
