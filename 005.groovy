@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 5
+// http://projecteuler.net/problem=5
 
 //works in groovy console
 boolean divisible (inNumb,rangevals,clos){

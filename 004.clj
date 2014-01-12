@@ -1,6 +1,8 @@
 ;;; Juan Vazquez 
 ;;; https://github.com/javazquez
 ;;; http://javazquez.com
+;;; Clojure Solution to Project Euler problem 4
+;;; http://projecteuler.net/problem=4
 
 (defn isPalindrom?[value](= (str value ) (apply str (reverse  (str value)))))
 

@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 9
+// http://projecteuler.net/problem=9
 
 def aSide = {m,n-> 2*(m * n) }
 def bSide = {m,n-> m**2-n**2 }

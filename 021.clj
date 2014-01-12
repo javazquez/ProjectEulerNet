@@ -1,6 +1,8 @@
 ;;; Juan Vazquez 
 ;;; https://github.com/javazquez
 ;;; http://javazquez.com
+;;; Clojure Solution to Project Euler problem 21
+;;; http://projecteuler.net/problem=21
 	
 (defn sum-divs  [num ](reduce + (filter #(zero? (rem num %)) (range 1 (+ 1(/ num 2 ))))))
 

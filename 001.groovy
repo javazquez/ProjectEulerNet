@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 1
+// http://projecteuler.net/problem=1
 
 def eSum= {mult, upperbound ->
 n = ((upperbound-1) / mult ) as Integer //truncates decimal 

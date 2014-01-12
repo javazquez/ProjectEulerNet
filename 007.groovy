@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 7
+// http://projecteuler.net/problem=7
 
 def primelist=[2,3,5,7,11,13]
 for(canidate in (14..1000001)){

@@ -1,6 +1,8 @@
 # Juan Vazquez 
 # https://github.com/javazquez
 # http://javazquez.com 
+# Elixir Solution to Project Euler problem 3
+# http://projecteuler.net/problem=3
 
 defmodule Euler3 do
   defp prime?(num) do

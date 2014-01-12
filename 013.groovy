@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 13
+// http://projecteuler.net/problem=13
 
 BigInteger bi=0
 [37107287533902102798797998220837590246510135740250,

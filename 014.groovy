@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 14
+// http://projecteuler.net/problem=14
 
 def startTime = System.nanoTime();
 def even={long n ->n/2l}

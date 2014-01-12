@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 12
+// http://projecteuler.net/problem=12
 
 def startTime = System.nanoTime();
 TreeSet<Long> primelist=[]

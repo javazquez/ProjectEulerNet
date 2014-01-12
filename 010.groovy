@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 10
+// http://projecteuler.net/problem=10
 
 def primelist = [] as TreeSet
 long total = 2

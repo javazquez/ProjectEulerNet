@@ -1,6 +1,8 @@
 ;;; Juan Vazquez 
 ;;; https://github.com/javazquez
 ;;; http://javazquez.com
+;;; Clojure Solution to Project Euler problem 3
+;;; http://projecteuler.net/problem=3
 
 (defn prime? [num]
   (< (count (filter #(zero? (rem num %))(range 1 num ))) 3))

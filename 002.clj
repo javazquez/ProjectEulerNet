@@ -1,6 +1,8 @@
 ;;; Juan Vazquez 
 ;;; https://github.com/javazquez
 ;;; http://javazquez.com
+;;; Clojure Solution to Project Euler problem 2
+;;; http://projecteuler.net/problem=2
 
 (defn euler2 
     ([] (euler2 0 1))

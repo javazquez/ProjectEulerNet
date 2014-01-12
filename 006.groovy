@@ -1,6 +1,8 @@
 // Juan Vazquez 
 // https://github.com/javazquez
 // http://javazquez.com
+// Groovy Solution to Project Euler problem 6
+// http://projecteuler.net/problem=6
 
 def getAnswer = {n->
   (n*n-1) * (3*n+2) * n/12

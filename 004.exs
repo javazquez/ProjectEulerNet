@@ -1,6 +1,8 @@
 # Juan Vazquez 
 # https://github.com/javazquez
 # http://javazquez.com
+# Elixir Solution to Project Euler problem 4
+# http://projecteuler.net/problem=4
 
 defmodule Euler do
   def palindroms(vals) do
