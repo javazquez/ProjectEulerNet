@@ -1,7 +1,7 @@
 // Juan Vazquez
 // https://github.com/javazquez
 // http://javazquez.com
-// Clojure Solution to Project Euler problem 2
+// Javascript Solution to Project Euler problem 2
 // http://projecteuler.net/problem=2
 
 /*
