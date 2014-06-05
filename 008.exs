@@ -3,6 +3,7 @@
 # http://javazquez.com
 # Elixir Solution to Project Euler problem 8
 # http://projecteuler.net/problem=8
+#Find the five adjacent digits in the 1000-digit number that have the greatest product
 
 defmodule Euler do
 	
