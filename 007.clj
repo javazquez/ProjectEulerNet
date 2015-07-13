@@ -5,19 +5,19 @@
 ;; http://projecteuler.net/problem=7
 
 (defn solve [ nth ]
-  (loop [ canidate 3
+  (loop [ candidate 3
           plist '(3 2 )
           acc 2
     ]
     (if (>= acc nth )
       (first plist)
-      (if (prime? canidate plist)
-        (recur (+ 2 canidate) (conj plist canidate) (inc acc))
-        (recur (+ 2 canidate) plist   acc)))))
+      (if (prime? candidate plist)
+        (recur (+ 2 candidate) (conj plist candidate) (inc acc))
+        (recur (+ 2 candidate) plist   acc)))))
 
-(defn prime? [ canidate plist]
+(defn prime? [ candidate plist]
   (->> plist
-    (map #(rem canidate %) )
+    (map #(rem candidate %) )
     (some zero?)
     not))
 
