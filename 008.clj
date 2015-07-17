@@ -28,20 +28,9 @@
         "05886116467109405077541002256983155200055935729725"
         "71636269561882670428252483600823257530420752963450")))
 
-(defn walk-digits[group-size lnum]
-  (loop [working-list lnum
-         [max-total nums] [0 ""]]
-     (let [curlist (take group-size working-list)
-        total (apply * curlist)
-        retval (if (> total max-total)
-                    [total curlist]
-                    [max-total nums]) ]
-     (if (< (count curlist) group-size)
-       {:total max-total :adj-nums nums}
-       (recur
-        (drop 1 working-list)
-        retval)))))
-
-(time (walk-digits 13 largeNum)) 
-; "Elapsed time: 14.420979 msecs"
-; {:total 23514624000, :adj-nums (5 5 7 6 6 8 9 6 6 4 8 9 5)}
+(time (->> (partition 13 1 largeNum)
+      (map #(apply * %))
+       (apply max)))
+     
+;"Elapsed time: 4.279317 msecs"
+;23514624000
